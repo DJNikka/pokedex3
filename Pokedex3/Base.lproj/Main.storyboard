@@ -43,6 +43,9 @@
                                         <rect key="frame" x="319" y="22" width="35" height="35"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Buton" image="music.png"/>
+                                        <connections>
+                                            <action selector="musicBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fdH-fY-CKK"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.21810071217489621" green="0.71864880181347157" blue="0.20539184730898546" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
