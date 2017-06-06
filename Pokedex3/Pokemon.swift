@@ -24,6 +24,59 @@ class Pokemon {
     private var _nextEvolutionTxt: String!
     private var _pokemonURL: String!
     
+    var description: String {
+    if _description == nil {
+            _description = ""
+    }
+    return _description
+}
+
+    var type: String {
+        
+        if _type == nil {
+            _type = ""
+        }
+        return _type
+    }
+    
+    
+    var defense: String {
+        if _defense == nil {
+            _defense = ""
+        }
+        return _defense
+    }
+    
+    var height: String {
+        if _height == nil {
+            _height = ""
+        }
+        return _height
+    }
+    
+    var weight: String {
+        
+        if _weight == nil {
+            _weight = ""
+        }
+        return _weight
+    }
+    
+    
+    var attack: String {
+        if _attack == nil {
+            _attack = ""
+        }
+        return _attack
+        }
+    
+    var nextEvolutionTxt: String {
+        
+        if _nextEvolutionTxt == nil {
+            _nextEvolutionTxt = ""
+        }
+        return _nextEvolutionTxt
+    }
 
     
     var name: String {
@@ -47,7 +100,7 @@ class Pokemon {
     }
     
     
-    func downloadPokemonDetail(completed: DownloadComplete) {
+    func downloadPokemonDetail(completed: @escaping DownloadComplete) {
         
         Alamofire.request(_pokemonURL).responseJSON { (response) in
             
@@ -71,7 +124,7 @@ class Pokemon {
                 print(self._defense)
             }
        
-            
+            completed()
         }
     }
 }
