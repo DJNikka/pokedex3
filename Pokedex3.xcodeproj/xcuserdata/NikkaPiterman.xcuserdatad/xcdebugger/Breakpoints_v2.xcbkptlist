@@ -2,4 +2,84 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pokedex3/AppDelegate.swift"
+            timestampString = "518400375.716261"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pokedex3.AppDelegate.__deallocating_deinit"
+                  moduleName = "Pokedex3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/NikkaPiterman/Desktop/Pokedex3/Pokedex3/AppDelegate.swift"
+                  timestampString = "518400375.746339"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pokedex3.AppDelegate.init () -&gt; Pokedex3.AppDelegate"
+                  moduleName = "Pokedex3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/NikkaPiterman/Desktop/Pokedex3/Pokedex3/AppDelegate.swift"
+                  timestampString = "518400375.768895"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pokedex3.AppDelegate.__allocating_init () -&gt; Pokedex3.AppDelegate"
+                  moduleName = "Pokedex3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/NikkaPiterman/Desktop/Pokedex3/Pokedex3/AppDelegate.swift"
+                  timestampString = "518400375.77026"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Pokedex3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/NikkaPiterman/Desktop/Pokedex3/Pokedex3/AppDelegate.swift"
+                  timestampString = "518400375.771735"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
